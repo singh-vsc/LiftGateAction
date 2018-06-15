@@ -1,0 +1,49 @@
+{
+  "exports": [
+    {
+      "id": "http.commerce.catalog.storefront.products.getProducts.before",
+      "virtualPath": "./dist\\commerce.catalog.storefront.products.manifest.all.js",
+      "actionId": "http.commerce.catalog.storefront.products.getProducts.before"
+    },
+    {
+      "id": "http.commerce.catalog.storefront.products.getProducts.after",
+      "virtualPath": "./dist\\commerce.catalog.storefront.products.manifest.all.js",
+      "actionId": "http.commerce.catalog.storefront.products.getProducts.after"
+    },
+    {
+      "id": "embedded.commerce.orders.price.before",
+      "virtualPath": "./dist\\commerce.orders.manifest.all.js",
+      "actionId": "embedded.commerce.orders.price.before"
+    },
+    {
+      "id": "embedded.commerce.orders.price.after",
+      "virtualPath": "./dist\\commerce.orders.manifest.all.js",
+      "actionId": "embedded.commerce.orders.price.after"
+    },
+    {
+      "id": "http.storefront.pages.category.request.before",
+      "virtualPath": "./dist\\storefront.manifest.all.js",
+      "actionId": "http.storefront.pages.category.request.before"
+    },
+    {
+      "id": "http.storefront.pages.category.request.after",
+      "virtualPath": "./dist\\storefront.manifest.all.js",
+      "actionId": "http.storefront.pages.category.request.after"
+    },
+    {
+      "id": "http.storefront.pages.cart.request.before",
+      "virtualPath": "./dist\\storefront.manifest.all.js",
+      "actionId": "http.storefront.pages.cart.request.before"
+    },
+    {
+      "id": "http.storefront.pages.cart.request.after",
+      "virtualPath": "./dist\\storefront.manifest.all.js",
+      "actionId": "http.storefront.pages.cart.request.after"
+    },
+    {
+      "id": "liftgateCustom",
+      "virtualPath": "./dist\\storefront.manifest.all.js",
+      "actionId": "http.storefront.routes"
+    }
+  ]
+}
